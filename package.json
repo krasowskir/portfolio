@@ -115,6 +115,7 @@
     ]
   },
   "devDependencies": {
+    "node-sass": "^4.10.0",
     "reactstrap": "^6.5.0"
   }
 }

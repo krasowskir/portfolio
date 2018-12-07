@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import "./style.scss";
 import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from "reactstrap";
 import car1 from "../../assets/car1.jpeg";
 import car2 from "../../assets/car2.jpeg";

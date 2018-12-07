@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+$carouselWidth: 200px;
+.carousel {
+  width: $carouselWidth;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
