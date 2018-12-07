@@ -1,29 +1,35 @@
 import React from "react";
-import { Container, Col, Row } from "reactstrap";
+import { Container, Col, Row, Button } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Features = props => (
   <Container>
     <Row>
-      <Col>
+      <Col sm="4">
         <h2>Welcome!</h2>
         <p>Suspendisse et arcu felis ...</p>
         <p>
-          <a href="#">See our portfolio</a>
+          <Button color="primary" className="float-right">
+            See our portfolio
+          </Button>
         </p>
       </Col>
-      <Col>
+      <Col sm="4">
         <h2>Recent Updates</h2>
         <p>Suspendisse et arcu felis ...</p>
         <p>
-          <a href="#">See whats new</a>
+          <Button color="primary" className="float-right">
+            See whats new
+          </Button>
         </p>
       </Col>
-      <Col>
+      <Col sm="4">
         <h2>Out team</h2>
         <p>Suspendisse et arcu felis ...</p>
         <p>
-          <a href="#">Meet the Team</a>
+          <Button color="primary" className="float-right">
+            Meet the Team
+          </Button>
         </p>
       </Col>
     </Row>
