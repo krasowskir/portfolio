@@ -1,3 +1,16 @@
 .nav-item:hover {
-  background-color: lightsalmon;
+  //background-color: rgb(246, 136, 136);
+  $link-hover-color: rgb(93, 224, 93);
+}
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 1rem;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(77, 75, 75);
+
+  &:hover {
+    background-color: lightcoral;
+  }
 }

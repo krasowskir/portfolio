@@ -41,10 +41,19 @@ export default class MyNavbar extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components">Components</NavLink>
+                <NavLink href="/">
+                  Home <i class="fas fa-home" />
+                </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/github">Github</NavLink>
+                <NavLink href="/components">
+                  Components <i class="fas fa-bezier-curve" />
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/github">
+                  Github <i class="fab fa-github" />
+                </NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
